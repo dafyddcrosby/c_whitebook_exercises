@@ -12,6 +12,7 @@ all:
 	$(CC) ex1-12.c -o 1-12.o
 	$(CC) ex1-13.c -o 1-13.o
 	$(CC) ex1-14.c -o 1-14.o
+	$(CC) ex1-15.c -o 1-15.o
 
 clean:
 	rm -rf a.out *~ *.o
